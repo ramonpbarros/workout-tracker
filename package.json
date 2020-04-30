@@ -11,6 +11,7 @@
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://ramonpbarros.github.io/workout-daily-tracker/",
   "dependencies": {
     "express": "^4.16.3",
     "mongojs": "^3.1.0",

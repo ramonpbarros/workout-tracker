@@ -16,7 +16,7 @@
 
 ## General info
 
-As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+User able to view create and track daily workouts. Able to log multiple exercises in a workout on a given day. Can also to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, user can to track his distance traveled.
 
 ## Screenshots
 
@@ -30,12 +30,13 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 - Node.js
 - Express
 - MongoDB
+- Mongoose.js
 
 ## Setup
 
 This application runs in the browser. Nothing needs to be installed except for your default browser.
 
-- Repository can be found here: [GitHub](https://github.com/ramonpbarros/workout-tracker) Make sure to git clone and check out the code!
+- Repository can be found here: [GitHub](https://github.com/ramonpbarros/workout-tracker) Check out the code!
 
 ## Code Examples
 
@@ -52,9 +53,7 @@ List of features:
 
 To-do list:
 
-- Add more layouts/themes.
-- Add contact me section.
-- Add multiple
+- Refactor stats page.
 
 ## Status
 
@@ -64,4 +63,4 @@ Project is: _in progress_
 
 ## Contact
 
-Created by [@danielmacias](https://github.com/macias-daniel), [@ramonpbarros](https://ramonpbarros.github.io/), [@ryanharris](https://github.com/ryan-harris), and [@tylorkolbeck](https://github.com/tylorkolbeck) - feel free to contact us!
+Created by [@ramonpbarros](https://ramonpbarros.github.io/) - feel free to contact me!
