@@ -8,8 +8,8 @@ const db = require("../models");
 // Creates a workout using data in the request body.
 router.post("/api/workouts", (req, res) => {
   db.Workout.create(req.body)
-    .then((dbWorkout) => {
-      res.json(dbWorkout);
+    .then((data) => {
+      res.json(data);
     })
     .catch((err) => {
       res.status(400).json(err);
