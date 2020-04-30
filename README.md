@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ramonpbarros/)
 
-> Web application that generates a portfolio website displaying GitHub repositories.
+> Web application that tracks daily workout routines.
 
 ## Table of contents
 
@@ -16,7 +16,7 @@
 
 ## General info
 
-This app is for a developer that has a GitHub account that wants to create a portfolio website from his/her selected repositories, without knowing anything about web development. So that he/she can can display his/her favorite GitHub repos nicely formatted!
+As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 ## Screenshots
 
@@ -29,16 +29,13 @@ This app is for a developer that has a GitHub account that wants to create a por
 - HTML 5
 - Node.js
 - Express
-- MySQL
-- Sequelize
-- Handlebars
-- GitHub API
+- MongoDB
 
 ## Setup
 
 This application runs in the browser. Nothing needs to be installed except for your default browser.
 
-- Repository can be found here: [GitHub](https://github.com/ryan-harris/portfolio-builder) Make sure to git clone and check out the code!
+- Repository can be found here: [GitHub](https://github.com/ramonpbarros/workout-tracker) Make sure to git clone and check out the code!
 
 ## Code Examples
 
@@ -49,9 +46,9 @@ Show examples of usage:
 
 List of features:
 
-- Authenticate user.
-- Select repos from GitHub.
-- Create portfolio website.
+- Add exercises to a previous workout plan.
+- Add new exercises to a new workout plan.
+- View multiple the combined weight of multiple exercises on the stats page.
 
 To-do list:
 
