@@ -19,7 +19,9 @@ router.post("/api/workouts", (req, res) => {
 // Respond with workout for id url parameter. This should
 // respond with the updated workout json
 router.put("/api/workouts/:id", (req, res) => {
-  db.Workout.findIdAndUpdate(req.params.id, { $$push: { exercises: req.body } })
+  db.Workout.findByIdAndUpdate(req.params.id, {
+    $push: { exercises: req.body }
+  })
     .then((data) => {
       res.json(data);
     })
