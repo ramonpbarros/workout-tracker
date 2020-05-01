@@ -20,7 +20,7 @@ User able to view create and track daily workouts. Able to log multiple exercise
 
 ## Screenshots
 
-![Example gif](/public/images/project.gif)
+![Example gif](/public/img/project.gif)
 
 ## Technologies
 
@@ -40,8 +40,15 @@ This application runs in the browser. Nothing needs to be installed except for y
 
 ## Code Examples
 
-Show examples of usage:
-`return axios.get("https://api.github.com/users/" + username).then();`
+    router.post("/api/workouts", (req, res) => {
+      db.Workout.create(req.body)
+      .then((data) => {
+        res.json(data);
+      })
+      .catch((err) => {
+        res.status(400).json(err);
+      });
+    });
 
 ## Features
 
@@ -59,7 +66,7 @@ To-do list:
 
 Project is: _in progress_
 
-- Make sure to check the application [here]().
+- Make sure to check the application [here](https://serene-atoll-05842.herokuapp.com/).
 
 ## Contact
 
