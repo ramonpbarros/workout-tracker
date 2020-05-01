@@ -59,7 +59,7 @@ To-do list:
 
 Project is: _in progress_
 
-- Make sure to check the application [here](https://ghport.herokuapp.com/).
+- Make sure to check the application [here]().
 
 ## Contact
 
